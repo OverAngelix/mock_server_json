@@ -1,0 +1,159 @@
+{
+  "lieu": [
+    {
+      "id": "01",
+      "name": "Lilliad",
+      "campus": {
+        "name": "Cité scientifique (Villeneuve d'Ascq)"
+      },
+      "motClefs": [
+        {
+          "name": "Bibliothèque Universitaire"
+        },
+        {
+          "name": "Bibliothèque"
+        }
+      ],
+      "longitude": 3.14194,
+      "latitude": 50.609417,
+      "siteWeb": "https://lilliad.univ-lille.fr/",
+      "telephone": "+33303030303",
+      "mail": null,
+      "idRepere": null
+    },
+    {
+      "id": "02",
+      "name": "RU Charles Barrois",
+      "campus": {
+        "name": "Cité scientifique (Villeneuve d'Ascq)"
+      },
+      "motClefs": [
+        {
+          "name": "Restaurant universitaire"
+        },
+        {
+          "name": "Cantine"
+        },
+        {
+          "name": "Alimentation"
+        }
+      ],
+      "longitude": 3.14334,
+      "latitude": 50.61231,
+      "siteWeb": "https://www.crous-lille.fr/restaurant/r-u-barrois-cite-sicentifique-2/",
+      "telephone": "0303030303",
+      "mail": null,
+      "idRepere": null
+    },
+    {
+      "id": "03",
+      "name": "Faculté des sciences du sport et de l'éducation physique (FSSEP − UFR3S)",
+      "campus": {
+        "name": "Santé (Lille, Loos, Ronchin)"
+      },
+      "motClefs": [
+        {
+          "name": "Composante"
+        },
+        {
+          "name": "Accueil faculté/UFR/institut"
+        },
+        {
+          "name": "Accueil/secrétariat pédagogique"
+        },
+        {
+          "name": "Département"
+        }
+      ],
+      "longitude": 3.083682,
+      "latitude": 50.611603,
+      "siteWeb": "https://staps.univ-lille.fr/",
+      "telephone": "0303030303",
+      "mail": null,
+      "idRepere": null
+    },
+    {
+      "id": "04",
+      "name": "Départements Arts (faculté des humanités)",
+      "campus": {
+        "name": "Pont-de-bois (Villeneuve d'Ascq)"
+      },
+      "motClefs": [
+        {
+          "name": "département"
+        },
+        {
+          "name": "Département"
+        },
+        {
+          "name": "Batiment"
+        }
+      ],
+      "longitude": 3.124993,
+      "latitude": 50.628418,
+      "siteWeb": "https://humanites.univ-lille.fr/arts",
+      "telephone": "",
+      "mail": null,
+      "idRepere": "02CPB001"
+    },
+    {
+      "id": "05",
+      "name": "Bibliothèque universitaire Sciences humaines et sociales",
+      "campus": {
+        "name": "Pont-de-bois (Villeneuve d'Ascq)"
+      },
+      "composante": null,
+      "motClefs": [
+        {
+          "name": "Bibliothèque Universitaire"
+        }
+      ],
+      "longitude": 3.127729,
+      "latitude": 50.627155,
+      "siteWeb": null,
+      "telephone": "",
+      "mail": null,
+      "idRepere": "02CPB005"
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "lieu",
+      "information": "Retourne la liste des lieux",
+      "method": {
+        "type": "GET",
+        "url": "/lieu",
+        "Headers": {
+          "Authorization": "Bearer OAUTHTOKEN"
+        },
+        "responseModel": {
+          "id": "string",
+          "name": "string",
+          "campus": {
+            "name": "string"
+          },
+          "motClefs": [
+            {
+              "name": "string"
+            }
+          ],
+          "longitude": "number",
+          "latitude": "number",
+          "siteWeb": "string",
+          "telephone": "string",
+          "mail": "string",
+          "idRepere": "string"
+        }
+      }
+    },
+    {
+      "name": "lieu-image",
+      "information": "Retourne l'image associée à un lieu spécifique par son ID.",
+      "method": {
+        "type": "GET",
+        "url": "/lieu/{ID}/image",
+        "responseModel": "Media type image/jpeg"
+      }
+    }
+  ]
+}

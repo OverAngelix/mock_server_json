@@ -1,0 +1,12 @@
+{
+  "name": "json-server-lilu",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Steven Copin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.0.0"
+  }
+}

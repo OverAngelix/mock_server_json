@@ -1,0 +1,1310 @@
+{
+  "abonnements": [
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "87387",
+      "annee": 2023,
+      "libelle": "Intro pol mondiale TD-TD-Grp11",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "83430",
+      "annee": 2023,
+      "libelle": "Intro syst pol Espagnol-TD Langue 30-Grp3",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "85150",
+      "annee": 2023,
+      "libelle": "Intro au droit des RI-CM-Grp1",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "80821",
+      "annee": 2023,
+      "libelle": "Princ fonda dt constit CM-CM-Grp1",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "84161",
+      "annee": 2023,
+      "libelle": "Vie Po Française CM-CM-Grp1",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "87743",
+      "annee": 2023,
+      "libelle": "Démo et histoire éco-CM-Grp1",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "83394",
+      "annee": 2023,
+      "libelle": "Contemporary US Politics-CM-Grp1",
+      "semestre": "Semestre 1",
+      "formation": "Droit international et droits européens",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "85934",
+      "annee": 2023,
+      "libelle": "Tutorat documentaire-TD-Grp22",
+      "semestre": "Semestre 1",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": 35780,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "3464",
+      "annee": 2023,
+      "libelle": "Espagnol TD-TD Langue 30-Grp2",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": true
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "87277",
+      "annee": 2023,
+      "libelle": "Enjeux sociaux contemp CM-CM-Grp1",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "80201",
+      "annee": 2023,
+      "libelle": "Actu éco, soc et env CM-CM-Grp1",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "86838",
+      "annee": 2023,
+      "libelle": "Droit constit Vème Républ-CM-Grp1",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "86177",
+      "annee": 2023,
+      "libelle": "Histoire idées politiques-CM-Grp1",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "79826",
+      "annee": 2023,
+      "libelle": "Intro science po CM-CM-Grp1",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "80509",
+      "annee": 2023,
+      "libelle": "Intro  science po TD-TD-Grp9",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "80628",
+      "annee": 2023,
+      "libelle": "Hist de l'idée européenne-CM-Grp1",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "84562",
+      "annee": 2023,
+      "libelle": "Espagnol TD-TD Langue 30-Grp3",
+      "semestre": "Semestre 2",
+      "formation": "Science politique",
+      "abonnement": false
+    }
+  ],
+  "semestres": [
+    {
+      "name": "Semestre 1",
+      "fatherName": "Science politique",
+      "fatherId": 77855,
+      "id": "78425",
+      "nbEventsPlaced": "0"
+    },
+    {
+      "name": "Semestre 2",
+      "fatherName": "Science politique",
+      "fatherId": 77855,
+      "id": "77974",
+      "nbEventsPlaced": "616"
+    }
+  ],
+  "semestresCours": [
+    {
+      "fatherId": "78425",
+      "fatherName": "Semestre 1",
+      "name": "EU-Contemporary US Politics CM-CM [Porté]",
+      "id": "89533"
+    },
+    {
+      "fatherId": "78425",
+      "fatherName": "Semestre 1",
+      "name": "CP-Démographie et histoire économique et sociale CM-CM",
+      "id": "87742"
+    },
+    {
+      "fatherId": "78425",
+      "fatherName": "Semestre 1",
+      "name": "CP-Introduction au droit et organisations juridictionnelles CM-CM",
+      "id": "82224"
+    },
+    {
+      "fatherId": "77974",
+      "fatherName": "Semestre 2",
+      "name": "CP-Enjeux sociaux contemporains CM-CM",
+      "id": "83808"
+    },
+    {
+      "fatherId": "77974",
+      "fatherName": "Semestre 2",
+      "name": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "id": "78845"
+    },
+    {
+      "fatherId": "77974",
+      "fatherName": "Semestre 2",
+      "name": "CP-Histoire des idées politiques CM-CM",
+      "id": "86176"
+    },
+    {
+      "fatherId": "77974",
+      "fatherName": "Semestre 2",
+      "name": "CP-Droit constitutionnel de la Vème république CM-CM",
+      "id": "83579"
+    }
+  ],
+  "coursGroupes": [
+    {
+      "fatherId": "89533",
+      "fatherName": "EU-Contemporary US Politics CM-CM [Porté]",
+      "name": "Contemporary US Politics-CM-Grp1 [Porté]",
+      "id": "89534",
+      "type": "CM"
+    },
+    {
+      "fatherId": "87742",
+      "fatherName": "CP-Démographie et histoire économique et sociale CM-CM",
+      "name": "Démo et histoire éco-CM-Grp1",
+      "id": "87743",
+      "type": "CM"
+    },
+    {
+      "fatherId": "82224",
+      "fatherName": "CP-Introduction au droit et organisations juridictionnelles CM-CM",
+      "name": "Intro dt et org juridict-CM-Grp1",
+      "id": "82225",
+      "type": "CM"
+    },
+    {
+      "fatherId": "83808",
+      "fatherName": "CP-Enjeux sociaux contemporains CM-CM",
+      "name": "Enjeux sociaux contemp CM-CM-Grp1",
+      "id": "87277",
+      "type": "CM"
+    },
+    {
+      "fatherId": "83808",
+      "fatherName": "CP-Enjeux sociaux contemporains CM-CM",
+      "name": "Enjeux sociaux contemp CM-CM-Grp2",
+      "id": "83809",
+      "type": "CM"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp7",
+      "id": "81983",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp1",
+      "id": "87722",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp2",
+      "id": "83055",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp17",
+      "id": "87774",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp6",
+      "id": "80629",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp13",
+      "id": "86771",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp15",
+      "id": "79676",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp14",
+      "id": "78937",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp8",
+      "id": "82788",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp12",
+      "id": "81774",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp3",
+      "id": "86215",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp11",
+      "id": "84746",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp9",
+      "id": "82515",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp4",
+      "id": "85509",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp10",
+      "id": "85066",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp5",
+      "id": "78846",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "78845",
+      "fatherName": "CP-Les organisations internationales en Anglais TD-TD Langue 30",
+      "name": "orga internat Anglais-TD Langue 30-Grp16",
+      "id": "85044",
+      "type": "TD Langue 30"
+    },
+    {
+      "fatherId": "86176",
+      "fatherName": "CP-Histoire des idées politiques CM-CM",
+      "name": "Histoire idées politiques-CM-Grp1",
+      "id": "86177",
+      "type": "CM"
+    },
+    {
+      "fatherId": "83579",
+      "fatherName": "CP-Droit constitutionnel de la Vème république CM-CM",
+      "name": "Droit constit Vème Républ-CM-Grp2",
+      "id": "83580",
+      "type": "CM"
+    },
+    {
+      "fatherId": "83579",
+      "fatherName": "CP-Droit constitutionnel de la Vème république CM-CM",
+      "name": "Droit constit Vème Républ-CM-Grp1",
+      "id": "86838",
+      "type": "CM"
+    }
+  ],
+  "planning": [
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "18/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11687",
+      "activityId": "6537",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro science po CM-CM-Grp1",
+      "classroomName": "C - Amphi - D",
+      "instructorName": "DERVILLE GREGORY",
+      "note": null,
+      "color": "230,230,230",
+      "date": "27/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "15861",
+      "activityId": "6633",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "04/03/2024",
+      "startHour": "17:00",
+      "endHour": "18:30",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11666",
+      "activityId": "2163",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro science po CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "DERVILLE GREGORY",
+      "note": null,
+      "color": "230,230,230",
+      "date": "26/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "15849",
+      "activityId": "6048",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "25/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11686",
+      "activityId": "6537",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "21/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11809",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "07/03/2024",
+      "startHour": "16:50",
+      "endHour": "18:20",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11812",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "27/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2668",
+      "activityId": "6629",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro  science po TD-TD-Grp9",
+      "classroomName": "E - Salle TD - E.1.07",
+      "instructorName": "ECHENE CLEMENT",
+      "note": null,
+      "color": "102,204,255",
+      "date": "13/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "3585",
+      "activityId": "984",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "04/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11689",
+      "activityId": "6537",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "13/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2784",
+      "activityId": "6629",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "11/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "154",
+      "activityId": "2702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "07/03/2024",
+      "startHour": "07:50",
+      "endHour": "09:20",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "5914",
+      "activityId": "6534",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "26/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "16874",
+      "activityId": "4415",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "20/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2692",
+      "activityId": "6629",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Espagnol TD-TD Langue 30-Grp3",
+      "classroomName": "R - Labo langues - R.2.40a",
+      "instructorName": "BLAS FERNANDEZ ANTONIO",
+      "note": null,
+      "color": "0,255,255",
+      "date": "25/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "02/15/2024 17:07",
+      "id": "19901",
+      "activityId": "4430",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "25/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "146",
+      "activityId": "2702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "14/03/2024",
+      "startHour": "17:00",
+      "endHour": "18:30",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "12298",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Espagnol TD-TD Langue 30-Grp3",
+      "classroomName": "R - Labo langues - R.2.40a",
+      "instructorName": "BLAS FERNANDEZ ANTONIO",
+      "note": null,
+      "color": "0,255,255",
+      "date": "04/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "02/15/2024 17:07",
+      "id": "19904",
+      "activityId": "4430",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "06/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2785",
+      "activityId": "6629",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "18/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "148",
+      "activityId": "2702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Espagnol TD-TD Langue 30-Grp3",
+      "classroomName": "R - Labo langues - R.2.40a",
+      "instructorName": "BLAS FERNANDEZ ANTONIO",
+      "note": null,
+      "color": "0,255,255",
+      "date": "11/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "02/15/2024 17:07",
+      "id": "19903",
+      "activityId": "4430",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "11/03/2024",
+      "startHour": "17:00",
+      "endHour": "18:30",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11665",
+      "activityId": "2163",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "14/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "5394",
+      "activityId": "9089",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "11/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11688",
+      "activityId": "6537",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "04/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "155",
+      "activityId": "2702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "25/03/2024",
+      "startHour": "17:00",
+      "endHour": "18:30",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11663",
+      "activityId": "2163",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "07/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11811",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro science po CM-CM-Grp1",
+      "classroomName": "C - Amphi - D",
+      "instructorName": "DERVILLE GREGORY",
+      "note": null,
+      "color": "230,230,230",
+      "date": "06/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "15864",
+      "activityId": "6633",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "12/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2551",
+      "activityId": "1702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "28/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11808",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "14/03/2024",
+      "startHour": "07:50",
+      "endHour": "09:20",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "5913",
+      "activityId": "6534",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "20/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/26/2024 11:51",
+      "id": "12229",
+      "activityId": "5678",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Espagnol TD-TD Langue 30-Grp3",
+      "classroomName": "R - Labo langues - R.2.40a",
+      "instructorName": "BLAS FERNANDEZ ANTONIO",
+      "note": null,
+      "color": "102,255,204",
+      "date": "04/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "02/15/2024 17:07",
+      "id": "19900",
+      "activityId": "8746",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "14/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11810",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Espagnol TD-TD Langue 30-Grp3",
+      "classroomName": "R - Labo langues - R.2.40a",
+      "instructorName": "BLAS FERNANDEZ ANTONIO",
+      "note": null,
+      "color": "0,255,255",
+      "date": "18/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "02/15/2024 17:07",
+      "id": "19902",
+      "activityId": "4430",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "28/03/2024",
+      "startHour": "17:00",
+      "endHour": "18:30",
+      "lastUpdate": "03/22/2024 11:16",
+      "id": "12299",
+      "activityId": "6628",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "05/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "16875",
+      "activityId": "4415",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro science po CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "DERVILLE GREGORY",
+      "note": null,
+      "color": "230,230,230",
+      "date": "12/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "15850",
+      "activityId": "6048",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro  science po TD-TD-Grp9",
+      "classroomName": "E - Salle TD - E.0.19",
+      "instructorName": "ECHENE CLEMENT",
+      "note": null,
+      "color": "102,204,255",
+      "date": "27/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "3581",
+      "activityId": "984",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "07/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "03/26/2024 11:52",
+      "id": "12448",
+      "activityId": "6640",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "28/03/2024",
+      "startHour": "07:50",
+      "endHour": "09:20",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "5883",
+      "activityId": "6534",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "26/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2550",
+      "activityId": "1702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro science po CM-CM-Grp1",
+      "classroomName": "C - Amphi - D",
+      "instructorName": "DERVILLE GREGORY",
+      "note": null,
+      "color": "230,230,230",
+      "date": "13/03/2024",
+      "startHour": "09:30",
+      "endHour": "11:00",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "15863",
+      "activityId": "6633",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "06/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/26/2024 11:51",
+      "id": "12267",
+      "activityId": "5678",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro  science po TD-TD-Grp9",
+      "classroomName": "E - Salle TD - E.1.07",
+      "instructorName": "ECHENE CLEMENT",
+      "note": null,
+      "color": "102,204,255",
+      "date": "20/03/2024",
+      "startHour": "18:40",
+      "endHour": "20:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "3583",
+      "activityId": "984",
+      "type": "TD"
+    },
+    {
+      "name": "CP-Enjeux sociaux contemp CM-CM-Grp1",
+      "classroomName": "C - Amphi - B",
+      "instructorName": "CAMPORELLI FABIEN",
+      "note": null,
+      "color": "230,230,230",
+      "date": "18/03/2024",
+      "startHour": "17:00",
+      "endHour": "18:30",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "11664",
+      "activityId": "2163",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "19/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2548",
+      "activityId": "1702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Actu éco, soc et env CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "FREYSSINET LOIC",
+      "note": null,
+      "color": "230,230,230",
+      "date": "05/03/2024",
+      "startHour": "12:00",
+      "endHour": "13:30",
+      "lastUpdate": "03/22/2024 07:13",
+      "id": "2552",
+      "activityId": "1702",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Intro science po CM-CM-Grp1",
+      "classroomName": "C - Amphi - E",
+      "instructorName": "DERVILLE GREGORY",
+      "note": null,
+      "color": "230,230,230",
+      "date": "05/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "15851",
+      "activityId": "6048",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "28/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "03/26/2024 11:52",
+      "id": "12382",
+      "activityId": "6640",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "27/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/26/2024 11:51",
+      "id": "12227",
+      "activityId": "5678",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Hist de l'idée européenne-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "ABOUCAYA CHANTAL",
+      "note": null,
+      "color": "230,230,230",
+      "date": "21/03/2024",
+      "startHour": "07:50",
+      "endHour": "09:20",
+      "lastUpdate": "02/17/2024 07:27",
+      "id": "5912",
+      "activityId": "6534",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Histoire idées politiques-CM-Grp1",
+      "classroomName": "C - Amphi - F",
+      "instructorName": "BEUVANT HUGO",
+      "note": null,
+      "color": "230,230,230",
+      "date": "13/03/2024",
+      "startHour": "15:20",
+      "endHour": "16:50",
+      "lastUpdate": "03/26/2024 11:51",
+      "id": "12231",
+      "activityId": "5678",
+      "type": "CM"
+    },
+    {
+      "name": "CP-Droit constit Vème Républ-CM-Grp1",
+      "classroomName": "C - Amphi - A",
+      "instructorName": "GALATI DAVID",
+      "note": null,
+      "color": "230,230,230",
+      "date": "12/03/2024",
+      "startHour": "13:40",
+      "endHour": "15:10",
+      "lastUpdate": "03/22/2024 07:14",
+      "id": "16872",
+      "activityId": "4415",
+      "type": "CM"
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "abonnements",
+      "information": "Retourne tous les abonnements disponibles (l'abonnement à TRUE signifie que c'est un abonnement en plus de ceux d'ADE)",
+      "method": {
+        "type": "GET",
+        "url": "/abonnements",
+        "responseModel": [
+          {
+            "id": 0,
+            "supannEtuId": "string",
+            "idAde": "string",
+            "groupeId": "string",
+            "annee": 0,
+            "libelle": "string",
+            "semestre": "string",
+            "formation": "string",
+            "abonnement": "boolean"
+          }
+        ]
+      }
+    },
+    {
+      "name": "abonnement-groupe",
+      "information": "Ajoute un abonnement à un groupe spécifique par son ID.",
+      "method": {
+        "type": "POST",
+        "url": "/groupes/{groupeId}/abonnement",
+        "Headers": {
+          "Authorization": "Bearer OAUTHTOKEN"
+        },
+        "responseModel": "200 OK"
+      }
+    },
+    {
+      "name": "desabonnement-groupe",
+      "information": "Supprime un abonnement d'un groupe spécifique par son ID.",
+      "method": {
+        "type": "DELETE",
+        "url": "/abonnements/{groupeId}",
+        "responseModel": "200 OK"
+      }
+    },
+    {
+      "name": "semestres",
+      "information": "Retourne tous les semestres disponibles",
+      "method": {
+        "type": "GET",
+        "url": "/semestres",
+        "responseModel": {
+          "name": "string",
+          "fatherName": "string",
+          "fatherId": 0,
+          "id": 0,
+          "nbEventsPlaced": "string"
+        }
+      }
+    },
+    {
+      "name": "cours par semestre",
+      "information": "Retourne tous les cours associés à un semestre spécifique.",
+      "method": {
+        "type": "GET",
+        "url": "/semestres/{id}/cours",
+        "responseModel": {
+          "fatherId": 0,
+          "fatherName": "string",
+          "name": "string",
+          "id": 0
+        }
+      }
+    },
+    {
+      "name": "groupes par cours",
+      "information": "Retourne tous les groupes associés à un cours spécifique.",
+      "method": {
+        "type": "GET",
+        "url": "/cours/{id}/groupes",
+        "responseModel": {
+          "fatherId": 0,
+          "fatherName": "string",
+          "name": "string",
+          "id": 0,
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "planning par période",
+      "information": "Retourne le planning des événements pour une période donnée, ajustant les dates pour le mois courant.",
+      "method": {
+        "type": "GET",
+        "url": "/planning/period/from/{deb}/to/{fin}",
+        "responseModel": {
+          "name": "string",
+          "classroomName": "string",
+          "instructorName": "string",
+          "note": "string",
+          "color": "string",
+          "date": "date",
+          "startHour": "string",
+          "endHour": "string",
+          "lastUpdate": "datetime",
+          "id": "string",
+          "activityId": "string",
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

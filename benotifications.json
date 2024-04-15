@@ -1,0 +1,541 @@
+{
+  "actualites": [
+    {
+      "url": "https://culture.univ-lille.fr/agenda/festival-universitaire-du-spectacle-vivant-2024/",
+      "categories": [
+        "Culture / Animation des campus"
+      ],
+      "tags": "",
+      "uid_news": 2082,
+      "titre_news": "Assistez au festival universitaire du spectacle vivant 2024",
+      "url_image": "https://ent.univ-lille.fr/fileadmin/Photos_actualites/photos_actus_etudiants/2024/csm_Affiche_web-FSV-2024_86c8baa13b.jpg",
+      "datemodif": "28/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": false,
+      "important_news": false
+    },
+    {
+      "url": "https://fondation.univ-lille.fr/actualites/detail-actualite/festival-des-cabane-edition-2024",
+      "categories": [
+        "Qualité de vie"
+      ],
+      "tags": "",
+      "uid_news": 2081,
+      "titre_news": "Festival des cabane, édition 2024",
+      "url_image": "https://fondation.univ-lille.fr/fileadmin/_processed_/f/2/csm_Edition_2022_cabane_le_Kiosque__Quatrine_atelierpost.credits._AtelierPost_jpg_9998915601.jpg",
+      "datemodif": "28/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": false,
+      "important_news": false
+    },
+    {
+      "url": "https://fondation.univ-lille.fr/actualites/detail-actualite/besoins-en-orthophonie-des-enfants-presentant-une-deficience-intellectuelle",
+      "categories": [
+        "Qualité de vie"
+      ],
+      "tags": "",
+      "uid_news": 2078,
+      "titre_news": "Besoins en Orthophonie des enfants présentant une déficience intellectuelle",
+      "datemodif": "27/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": true,
+      "important_news": false
+    },
+    {
+      "url": "https://formationpro.univ-lille.fr/actualites/detail-actualite/replay-de-la-conference-episteme-du-25-janvier-2024",
+      "categories": [
+        "Vie institutionnelle"
+      ],
+      "tags": "",
+      "uid_news": 2075,
+      "titre_news": "Replay de la conférence épistémè du 25 janvier 2024",
+      "url_image": "https://formationpro.univ-lille.fr/fileadmin/_processed_/2/5/csm_EPISTEME-C3_mailing-conf-1_HEADER_c6bf9f4da6.png",
+      "datemodif": "27/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": false,
+      "important_news": false
+    },
+    {
+      "url": "https://newsroom.univ-lille.fr/actualite/com-en-or-trophy-luniversite-de-lille-monte-sur-le-podium",
+      "categories": [
+        "Qualité de vie au travail"
+      ],
+      "tags": "",
+      "uid_news": 2074,
+      "titre_news": "Com' en Or Trophy : l'Université de Lille monte sur le podium !",
+      "url_image": "https://newsroom.univ-lille.fr/fileadmin/_processed_/2/7/csm_com-en-or-trophy_763e2c7bcc.jpg",
+      "datemodif": "27/03/2024",
+      "nom_groupes": [
+        "01_Employee",
+        "02_Faculty",
+        "03_Researcher",
+        "04_Student",
+        "05_Alum",
+        "06_Affiliate",
+        "07_Retired",
+        "08_Emeritus",
+        "09_Staff",
+        "10_Teacher",
+        "11_Member",
+        "Tous les personnels hébergés"
+      ],
+      "top_news": false,
+      "important_news": false
+    },
+    {
+      "url": "https://newsroom.univ-lille.fr/actualite/mixcite-2024",
+      "categories": [
+        "Qualité de vie"
+      ],
+      "tags": "",
+      "uid_news": 2073,
+      "titre_news": "Mix'cité 2024",
+      "url_image": "https://newsroom.univ-lille.fr/fileadmin/_processed_/5/a/csm_Web_Mixcite2024_1500x500_ffb2df55a6.jpg",
+      "datemodif": "26/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": false,
+      "important_news": false
+    },
+    {
+      "url": "https://fondation.univ-lille.fr/projets/les-projets-soutenus/trophees-inspirons-demain-2023",
+      "categories": [
+        "Vie institutionnelle"
+      ],
+      "tags": "",
+      "uid_news": 2072,
+      "titre_news": "Trophées 'Inspirons demain' 2023",
+      "url_image": "https://fondation.univ-lille.fr/fileadmin/_processed_/6/9/csm_Trophees_inspirons_demain-8775_86b8fec82d.jpg",
+      "datemodif": "26/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": true,
+      "important_news": false
+    },
+    {
+      "url": "https://www.lescrous.fr/2024/03/ouverture-campagne-dossier-social-etudiant-2024-2025/",
+      "categories": [
+        "Qualité de vie"
+      ],
+      "tags": "",
+      "uid_news": 2070,
+      "titre_news": "Dossier social étudiant : faites vos demandes de bourse et de logement avant le 31 mai",
+      "url_image": "https://www.lescrous.fr/wp-content/uploads/2023/03/POST-TWITTER-800x418-Lyceenne.jpg",
+      "datemodif": "22/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": false,
+      "important_news": false
+    },
+    {
+      "url": "https://www.meshs.fr/page/pshs2024",
+      "categories": [
+        "Qualité de vie"
+      ],
+      "tags": "",
+      "uid_news": 2069,
+      "titre_news": "15e Printemps des SHS (2024) - Penser le changement climatique",
+      "url_image": "https://newsroom.univ-lille.fr/fileadmin/_processed_/f/9/csm_pshs24_6b0ac02d15.png",
+      "datemodif": "22/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": true,
+      "important_news": false
+    },
+    {
+      "url": "https://formationpro.univ-lille.fr/actualites/detail-actualite/journee-portes-ouvertes-a-luniversite",
+      "categories": [
+        "Environnement de travail"
+      ],
+      "tags": "",
+      "uid_news": 2055,
+      "titre_news": "Journée Portes Ouvertes à l'université",
+      "url_image": "https://formationpro.univ-lille.fr/fileadmin/user_upload/formation-continue/janvier_2024/Janvier_2024_JPO.png",
+      "datemodif": "22/03/2024",
+      "nom_groupes": [
+        "04_Student",
+        "05_Alum",
+        "Personnels_vue_etudiants"
+      ],
+      "top_news": true,
+      "important_news": false
+    }
+  ],
+  "history": [
+    {
+      "id": 726,
+      "title": "Offre Promotionnelle Université de Lille",
+      "body": "Offre promotionnelle limitée",
+      "isAlreadyRead": true,
+      "isDeleted": false,
+      "date": "2024-02-26T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": null
+    },
+    {
+      "id": 646,
+      "title": "Séminaire sur le Leadership",
+      "body": "Réservez votre place dès maintenant pour notre prochain séminaire sur le leadership.",
+      "isAlreadyRead": true,
+      "isDeleted": false,
+      "date": "2024-02-20T17:52:56.83977",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 622,
+      "title": "Atelier Créatif de Sculpture sur Bois",
+      "body": "Découvrez l'art de la sculpture sur bois lors de notre atelier créatif.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-16T13:24:50.293674",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 640,
+      "title": "Résolution du Problème Technique du Site",
+      "body": "Nous sommes heureux d'annoncer que le problème technique sur notre site web a été résolu.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-14T03:49:21.528867",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 665,
+      "title": "Recherche de Stagiaires pour l'Été",
+      "body": "Nous recherchons des stagiaires motivés pour rejoindre notre équipe cet été.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-13T15:10:30.552745",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 672,
+      "title": "Gagnants du Concours Annuel sur les Réseaux Sociaux",
+      "body": "Découvrez les heureux gagnants de notre concours annuel sur nos réseaux sociaux.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-13T12:33:55.768943",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 696,
+      "title": "Offres Spéciales pour Vacances d'Été",
+      "body": "Profitez de nos offres spéciales pour des vacances d'été inoubliables.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-12T20:34:58.941796",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 677,
+      "title": "Session de Formation en Techniques de Vente",
+      "body": "Participez à notre session de formation pour perfectionner vos techniques de vente.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-12T19:05:33.824668",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 712,
+      "title": "Offre Exclusive pour Clients VIP",
+      "body": "En tant que client VIP, bénéficiez d'une offre exclusive rien que pour vous.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-12T13:41:26.448201",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    }
+  ],
+  "history-save": [
+    {
+      "id": 726,
+      "title": "Offre Promotionnelle Université de Lille",
+      "body": "Offre promotionnelle limitée",
+      "isAlreadyRead": true,
+      "isDeleted": false,
+      "date": "2024-02-26T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": null
+    },
+    {
+      "id": 646,
+      "title": "Séminaire sur le Leadership",
+      "body": "Réservez votre place dès maintenant pour notre prochain séminaire sur le leadership.",
+      "isAlreadyRead": true,
+      "isDeleted": false,
+      "date": "2024-02-20T17:52:56.83977",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 622,
+      "title": "Atelier Créatif de Sculpture sur Bois",
+      "body": "Découvrez l'art de la sculpture sur bois lors de notre atelier créatif.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-16T13:24:50.293674",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 640,
+      "title": "Résolution du Problème Technique du Site",
+      "body": "Nous sommes heureux d'annoncer que le problème technique sur notre site web a été résolu.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-14T03:49:21.528867",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 665,
+      "title": "Recherche de Stagiaires pour l'Été",
+      "body": "Nous recherchons des stagiaires motivés pour rejoindre notre équipe cet été.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-13T15:10:30.552745",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 672,
+      "title": "Gagnants du Concours Annuel sur les Réseaux Sociaux",
+      "body": "Découvrez les heureux gagnants de notre concours annuel sur nos réseaux sociaux.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-13T12:33:55.768943",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 696,
+      "title": "Offres Spéciales pour Vacances d'Été",
+      "body": "Profitez de nos offres spéciales pour des vacances d'été inoubliables.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-12T20:34:58.941796",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 677,
+      "title": "Session de Formation en Techniques de Vente",
+      "body": "Participez à notre session de formation pour perfectionner vos techniques de vente.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-12T19:05:33.824668",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    },
+    {
+      "id": 712,
+      "title": "Offre Exclusive pour Clients VIP",
+      "body": "En tant que client VIP, bénéficiez d'une offre exclusive rien que pour vous.",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-02-12T13:41:26.448201",
+      "type": "TEXTE",
+      "urlExterne": null,
+      "urlActualite": null
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "get-history",
+      "information": "Retourne l'historique des notifications, en excluant celles marquées comme supprimées.",
+      "methods": {
+        "type": "GET",
+        "url": "/history",
+        "Headers": {
+          "Authorization": "Bearer OAUTHTOKEN"
+        },
+        "responseModel": [
+          {
+            "id": 0,
+            "title": "string",
+            "body": "string",
+            "isAlreadyRead": "boolean",
+            "isDeleted": "boolean",
+            "date": "datetime",
+            "type": "string",
+            "urlExterne": "string",
+            "urlActualite": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "change-history",
+      "information": "Envoie un tableau de notification et modifie les etat lues et/ou supprimées des notifications du tableau",
+      "methods": {
+        "type": "POST",
+        "url": "/history",
+        "Headers": {
+          "Authorization": "Bearer OAUTHTOKEN"
+        },
+        "requestModel": [
+          {
+            "id": 0,
+            "isAlreadyRead": "boolean",
+            "isDeleted": "boolean"
+          }
+        ],
+        "responseModel": "200 OK"
+      }
+    },
+    {
+      "name": "actualites",
+      "information": "Retourne les actualités.",
+      "methods": {
+        "type": "GET",
+        "url": "/actualites",
+        "responseModel": [
+          {
+            "url": "string",
+            "categories": [
+              "string",
+              "string"
+            ],
+            "tags": "string",
+            "uid_news": 0,
+            "titre_news": "string",
+            "url_image": "string",
+            "datemodif": "date",
+            "nom_groupes": "array of strings",
+            "top_news": "boolean",
+            "important_news": "boolean"
+          }
+        ]
+      }
+    },
+    {
+      "name": "subscribe-to-topic",
+      "information": "Abonne un appareil à un topic Firebase Cloud Messaging.",
+      "methods": [
+        {
+          "type": "PUT",
+          "url": "/terminal/{fcmoken}",
+          "Headers": {
+            "Authorization": "Bearer OAUTHTOKEN"
+          },
+          "responseModel": "200 OK"
+        }
+      ]
+    },
+    {
+      "name": "unsubscribe-from-topic",
+      "information": "Désabonne un appareil d'un topic Firebase Cloud Messaging.",
+      "methods": [
+        {
+          "type": "DELETE",
+          "url": "/terminal/{fcmoken}",
+          "Headers": {
+            "Authorization": "Bearer OAUTHTOKEN"
+          },
+          "responseModel": "200 OK"
+        }
+      ]
+    },
+    {
+      "name": "send-topic",
+      "information": "Envoie une notification  à un appareil spécifique via un token d'enregistrement FCM (firebase)",
+      "method": {
+        "type": "POST",
+        "url": "/sendFCM/{fcmToken}",
+        "requestModel": {
+          "title": "string",
+          "body": "string",
+          "isAlreadyRead": "boolean",
+          "isDeleted": "boolean",
+          "date": "datetime",
+          "type": "string",
+          "urlExterne": "string",
+          "urlActualite": "string"
+        },
+        "responseModel": {
+          "message": "string"
+        }
+      }
+    },
+    {
+      "name": "send-topic",
+      "information": "Envoie une notification à tous les appareils abonnés à un topic spécifique.",
+      "method": {
+        "type": "POST",
+        "url": "/sendTOPIC/{topic}",
+        "requestModel": {
+          "title": "string",
+          "body": "string",
+          "isAlreadyRead": "boolean",
+          "isDeleted": "boolean",
+          "date": "datetime",
+          "type": "string",
+          "urlExterne": "string",
+          "urlActualite": "string"
+        },
+        "responseModel": "string"
+      }
+    },
+    {
+      "name": "copyHistorySaveToHistory",
+      "information": "Recopie les données de 'history-save' vers 'history'.",
+      "method": {
+        "type": "GET",
+        "url": "/copyHistorySaveToHistory",
+        "responseModel": "string"
+      }
+    }
+  ]
+}
