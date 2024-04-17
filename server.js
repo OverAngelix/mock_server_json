@@ -599,8 +599,7 @@ app.post("/groupes/:groupeId/abonnement", (req, res) => {
           res.status(500).send("Erreur lors de la sauvegarde du fichier");
           return;
         }
-
-        res.send("Abonnement ajouté avec succès.");
+        res.json(newAbonnement);
       }
     );
   });
