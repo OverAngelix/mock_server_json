@@ -34,7 +34,7 @@
         "Personnels_vue_etudiants"
       ],
       "top_news": false,
-      "important_news": false
+      "important_news": true
     },
     {
       "url": "https://fondation.univ-lille.fr/actualites/detail-actualite/besoins-en-orthophonie-des-enfants-presentant-une-deficience-intellectuelle",
@@ -96,7 +96,7 @@
         "Tous les personnels hébergés"
       ],
       "top_news": false,
-      "important_news": false
+      "important_news": true
     },
     {
       "url": "https://newsroom.univ-lille.fr/actualite/mixcite-2024",
@@ -150,7 +150,7 @@
         "Personnels_vue_etudiants"
       ],
       "top_news": false,
-      "important_news": false
+      "important_news": true
     },
     {
       "url": "https://www.meshs.fr/page/pshs2024",
