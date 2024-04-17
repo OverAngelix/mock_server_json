@@ -563,7 +563,7 @@ app.post("/groupes/:groupeId/abonnement", (req, res) => {
       res.status(404).send("Groupe non trouvé.");
       return;
     }
-
+    console.log(groupeToAdd);
     // Trouver le semestre associé à ce groupe en utilisant fatherId pour faire le lien
     const semestreAssocie = jsonData.semestresCours.find(
       (semestre) => semestre.id === groupeToAdd.fatherId
@@ -573,6 +573,7 @@ app.post("/groupes/:groupeId/abonnement", (req, res) => {
       res.status(404).send("Semestre associé non trouvé.");
       return;
     }
+    console.log(semestreAssocie);
 
     // Créer un nouvel objet abonnement basé sur le groupe trouvé
     const newAbonnement = {
@@ -582,7 +583,7 @@ app.post("/groupes/:groupeId/abonnement", (req, res) => {
       groupeId: groupeToAdd.id,
       annee: 2023,
       libelle: groupeToAdd.name,
-      semestre: semestreAssocie.semestre,
+      semestre: semestreAssocie.fatherName,
       formation: "Science politique",
       abonnement: true,
     };

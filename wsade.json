@@ -175,6 +175,16 @@
       "semestre": "Semestre 2",
       "formation": "Science politique",
       "abonnement": false
+    },
+    {
+      "id": null,
+      "supannEtuId": "42310609",
+      "idAde": "34295",
+      "groupeId": "87774",
+      "annee": 2023,
+      "libelle": "orga internat Anglais-TD Langue 30-Grp17",
+      "formation": "Science politique",
+      "abonnement": true
     }
   ],
   "semestres": [
