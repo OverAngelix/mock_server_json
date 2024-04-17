@@ -604,8 +604,8 @@ app.post("/groupes/:groupeId/abonnement", (req, res) => {
   });
 });
 
-app.delete("/abonnements/:groupeId", (req, res) => {
-  const groupeId = req.params.groupeId;
+app.delete("/abonnements/:id", (req, res) => {
+  const id = req.params.id;
   fs.readFile("wsade.json", "utf8", (err, data) => {
     if (err) {
       res.status(500).send("Erreur lors de la lecture du fichier");
@@ -617,7 +617,7 @@ app.delete("/abonnements/:groupeId", (req, res) => {
       return;
     }
     const updatedAbonnements = jsonData.abonnements.filter(
-      (abonnement) => abonnement.groupeId !== groupeId
+      (abonnement) => abonnement.id !== id
     );
     if (jsonData.abonnements.length === updatedAbonnements.length) {
       res
