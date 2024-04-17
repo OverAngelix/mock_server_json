@@ -577,7 +577,7 @@ app.post("/groupes/:groupeId/abonnement", (req, res) => {
 
     // Créer un nouvel objet abonnement basé sur le groupe trouvé
     const newAbonnement = {
-      id: null,
+      id:  Math.floor(Math.random() * (99999 - 1000 + 1) + 1000),
       supannEtuId: "42310609",
       idAde: "34295",
       groupeId: groupeToAdd.id,
