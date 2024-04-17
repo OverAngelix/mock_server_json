@@ -19,14 +19,13 @@
       "important_news": false
     },
     {
-      "url": "https://fondation.univ-lille.fr/actualites/detail-actualite/festival-des-cabane-edition-2024",
+      "url": "https://culture.univ-lille.fr/agenda/details/news/exposition-breaking-the-lab/",
       "categories": [
         "Qualité de vie"
       ],
       "tags": "",
       "uid_news": 2081,
-      "titre_news": "Festival des cabane, édition 2024",
-      "url_image": "https://fondation.univ-lille.fr/fileadmin/_processed_/f/2/csm_Edition_2022_cabane_le_Kiosque__Quatrine_atelierpost.credits._AtelierPost_jpg_9998915601.jpg",
+      "titre_news": "EXPOSITION BREAKING THE LAB",
       "datemodif": "28/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -37,13 +36,15 @@
       "important_news": true
     },
     {
-      "url": "https://fondation.univ-lille.fr/actualites/detail-actualite/besoins-en-orthophonie-des-enfants-presentant-une-deficience-intellectuelle",
+      "url": "https://culture.univ-lille.fr/agenda/details/news/liens-dhospitalite/",
       "categories": [
         "Qualité de vie"
       ],
       "tags": "",
       "uid_news": 2078,
-      "titre_news": "Besoins en Orthophonie des enfants présentant une déficience intellectuelle",
+      "titre_news": "LIENS D'HOSPITALITÉ",
+      "url_image": "https://culture.univ-lille.fr/fileadmin/_processed_/e/d/csm_Visuel_Expo_-_Leidy_Jalk_Copie_20230426_09005050_057bd8dff7.jpeg",
+
       "datemodif": "27/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -54,14 +55,14 @@
       "important_news": false
     },
     {
-      "url": "https://formationpro.univ-lille.fr/actualites/detail-actualite/replay-de-la-conference-episteme-du-25-janvier-2024",
+      "url": "https://culture.univ-lille.fr/agenda/details/news/visites-theatralisees-si-pont-de-bois-metait-conte/",
       "categories": [
         "Vie institutionnelle"
       ],
       "tags": "",
       "uid_news": 2075,
-      "titre_news": "Replay de la conférence épistémè du 25 janvier 2024",
-      "url_image": "https://formationpro.univ-lille.fr/fileadmin/_processed_/2/5/csm_EPISTEME-C3_mailing-conf-1_HEADER_c6bf9f4da6.png",
+      "titre_news": "VISITES THÉÂTRALISÉES : SI PONT-DE-BOIS M'ÉTAIT CONTÉ",
+      "url_image": "https://culture.univ-lille.fr/fileadmin/_processed_/5/a/csm_20231114_081238-2_df5cdfbc56.jpg",
       "datemodif": "27/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -72,14 +73,14 @@
       "important_news": false
     },
     {
-      "url": "https://newsroom.univ-lille.fr/actualite/com-en-or-trophy-luniversite-de-lille-monte-sur-le-podium",
+      "url": "https://culture.univ-lille.fr/agenda/spectacles/news/cloture-du-festival-universitaire-du-spectacle-vivant/",
       "categories": [
         "Qualité de vie au travail"
       ],
       "tags": "",
       "uid_news": 2074,
-      "titre_news": "Com' en Or Trophy : l'Université de Lille monte sur le podium !",
-      "url_image": "https://newsroom.univ-lille.fr/fileadmin/_processed_/2/7/csm_com-en-or-trophy_763e2c7bcc.jpg",
+      "titre_news": "SOIRÉE DE CLÔTURE",
+      "url_image": "https://culture.univ-lille.fr/fileadmin/_processed_/9/b/csm_FSV_2024_carre_3a06530b02.jpg",
       "datemodif": "27/03/2024",
       "nom_groupes": [
         "01_Employee",
@@ -99,14 +100,13 @@
       "important_news": true
     },
     {
-      "url": "https://newsroom.univ-lille.fr/actualite/mixcite-2024",
+      "url": "https://culture.univ-lille.fr/agenda/rentree-culturelle/",
       "categories": [
         "Qualité de vie"
       ],
       "tags": "",
       "uid_news": 2073,
-      "titre_news": "Mix'cité 2024",
-      "url_image": "https://newsroom.univ-lille.fr/fileadmin/_processed_/5/a/csm_Web_Mixcite2024_1500x500_ffb2df55a6.jpg",
+      "titre_news": "Rentrée culturelle",
       "datemodif": "26/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -117,14 +117,14 @@
       "important_news": false
     },
     {
-      "url": "https://fondation.univ-lille.fr/projets/les-projets-soutenus/trophees-inspirons-demain-2023",
+      "url": "https://culture.univ-lille.fr/pratique-artistique/workshops/workshops/apero-du-mix/",
       "categories": [
         "Vie institutionnelle"
       ],
       "tags": "",
       "uid_news": 2072,
-      "titre_news": "Trophées 'Inspirons demain' 2023",
-      "url_image": "https://fondation.univ-lille.fr/fileadmin/_processed_/6/9/csm_Trophees_inspirons_demain-8775_86b8fec82d.jpg",
+      "titre_news": "Workshop encadré par DJ Keutch et DJ Wallace",
+      "url_image": "https://culture.univ-lille.fr/fileadmin/_processed_/e/7/csm_Carre_apero_mix_a46b1ebe6d.jpg",
       "datemodif": "26/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -153,14 +153,14 @@
       "important_news": true
     },
     {
-      "url": "https://www.meshs.fr/page/pshs2024",
+      "url": "https://culture.univ-lille.fr/agenda/les-trois-renaissances-du-printemps/",
       "categories": [
         "Qualité de vie"
       ],
       "tags": "",
       "uid_news": 2069,
-      "titre_news": "15e Printemps des SHS (2024) - Penser le changement climatique",
-      "url_image": "https://newsroom.univ-lille.fr/fileadmin/_processed_/f/9/csm_pshs24_6b0ac02d15.png",
+      "titre_news": "Les trois renaissances du printemps",
+      "url_image": "https://culture.univ-lille.fr/fileadmin/_processed_/e/e/csm_bandeau-site_renaissances_cd80174cd0.jpg",
       "datemodif": "22/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -171,14 +171,14 @@
       "important_news": false
     },
     {
-      "url": "https://formationpro.univ-lille.fr/actualites/detail-actualite/journee-portes-ouvertes-a-luniversite",
+      "url": "https://culture.univ-lille.fr/agenda/spectacles/news/concert-dautomne-de-lasap0/",
       "categories": [
         "Environnement de travail"
       ],
       "tags": "",
       "uid_news": 2055,
-      "titre_news": "Journée Portes Ouvertes à l'université",
-      "url_image": "https://formationpro.univ-lille.fr/fileadmin/user_upload/formation-continue/janvier_2024/Janvier_2024_JPO.png",
+      "titre_news": "CONCERT DE PRINTEMPS DE L'ASAPs",
+      "url_image": "https://culture.univ-lille.fr/fileadmin/_processed_/4/1/csm_photo_asa_0688039f66.jpg",
       "datemodif": "22/03/2024",
       "nom_groupes": [
         "04_Student",
@@ -288,6 +288,94 @@
       "type": "TEXTE",
       "urlExterne": null,
       "urlActualite": null
+    },
+    {
+      "id": 774861,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 200423,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 211285,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 644725,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 384696,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 404944,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 573180,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 413079,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
     }
   ],
   "history-save": [
@@ -389,6 +477,94 @@
       "type": "TEXTE",
       "urlExterne": null,
       "urlActualite": null
+    },
+    {
+      "id": 774861,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 200423,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 211285,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 644725,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 384696,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 404944,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 573180,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
+    },
+    {
+      "id": 413079,
+      "title": "TEST",
+      "body": "TESST",
+      "isAlreadyRead": false,
+      "isDeleted": false,
+      "date": "2024-04-17T01:41:57.333989",
+      "type": "URL_EXTERNE",
+      "urlExterne": "https://www.univ-lille.fr/",
+      "urlActualite": "null"
     }
   ],
   "endpoints": [

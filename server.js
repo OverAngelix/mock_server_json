@@ -295,6 +295,7 @@ app.post("/sendFCM/:fcmRegistrationToken", (req, res) => {
       }
     )
     .then((response) => {
+      console.log(response);
       // Ajouter la notification à history en cas de succès
       fs.readFile("benotifications.json", "utf8", (err, data) => {
         if (err) {
