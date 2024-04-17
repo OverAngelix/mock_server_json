@@ -617,7 +617,7 @@ app.delete("/abonnements/:id", (req, res) => {
       return;
     }
     const updatedAbonnements = jsonData.abonnements.filter(
-      (abonnement) => abonnement.id !== id
+      (abonnement) => abonnement.id != id
     );
     if (jsonData.abonnements.length === updatedAbonnements.length) {
       res
