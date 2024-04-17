@@ -190,7 +190,7 @@ app.post("/history", (req, res) => {
   });
 });
 
-app.get("/actualites", (req, res) => {
+app.get("/actualite", (req, res) => {
   fs.readFile("benotifications.json", "utf8", (err, data) => {
     if (err) {
       res.status(500).send("Erreur lors de la lecture du fichier");
