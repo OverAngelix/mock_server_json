@@ -29,7 +29,7 @@ app.post("/connexion", (req, res) => {
   });
 });
 
-app.post("/token-refresh", (req, res) => {
+app.post("/tokenRefresh", (req, res) => {
   fs.readFile("wsoauth.json", "utf8", (err, data) => {
     if (err) {
       res.status(500).send("Erreur lors de la lecture du fichier");
