@@ -1,0 +1,1564 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Serveur mock pour LilSnap",
+    "description": "",
+    "version": "1.0"
+  },
+  "produces": [
+    "application/json"
+  ],
+  "tags": [
+    {
+      "name": "Abonnements"
+    },
+    {
+      "name": "Geolocalication"
+    },
+    {
+      "name": "Notes"
+    },
+    {
+      "name": "Notifications"
+    },
+    {
+      "name": "Oauth"
+    }
+  ],
+  "paths": {
+    "/history": {
+      "get": {
+        "summary": "Retourne l'historique des notifications, en excluant celles marquées comme supprimées.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "body": {
+                        "type": "string"
+                      },
+                      "isAlreadyRead": {
+                        "type": "boolean"
+                      },
+                      "isDeleted": {
+                        "type": "boolean"
+                      },
+                      "date": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "urlExterne": {
+                        "type": "string"
+                      },
+                      "urlActualite": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Envoie un tableau de notification et modifie les états lues et/ou supprimées des notifications du tableau.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "isAlreadyRead": {
+                      "type": "boolean"
+                    },
+                    "isDeleted": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/actualites": {
+      "get": {
+        "summary": "Retourne les actualités.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string"
+                      },
+                      "categories": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "tags": {
+                        "type": "string"
+                      },
+                      "uid_news": {
+                        "type": "integer"
+                      },
+                      "titre_news": {
+                        "type": "string"
+                      },
+                      "url_image": {
+                        "type": "string"
+                      },
+                      "datemodif": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "nom_groupes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "top_news": {
+                        "type": "boolean"
+                      },
+                      "important_news": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/terminal/{fcmoken}": {
+      "put": {
+        "summary": "Abonne un appareil à un topic Firebase Cloud Messaging.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "parameters": [
+          {
+            "name": "fcmoken",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "delete": {
+        "summary": "Désabonne un appareil d'un topic Firebase Cloud Messaging.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "parameters": [
+          {
+            "name": "fcmoken",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/sendFCM/{fcmToken}": {
+      "post": {
+        "summary": "Envoie une notification à un appareil spécifique via un token d'enregistrement FCM (firebase).",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "fcmToken",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  },
+                  "isAlreadyRead": {
+                    "type": "boolean"
+                  },
+                  "isDeleted": {
+                    "type": "boolean"
+                  },
+                  "date": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "urlExterne": {
+                    "type": "string"
+                  },
+                  "urlActualite": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sendTOPIC/{topic}": {
+      "post": {
+        "summary": "Envoie une notification à tous les appareils abonnés à un topic spécifique.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "topic",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  },
+                  "isAlreadyRead": {
+                    "type": "boolean"
+                  },
+                  "isDeleted": {
+                    "type": "boolean"
+                  },
+                  "date": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "urlExterne": {
+                    "type": "string"
+                  },
+                  "urlActualite": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/copyHistorySaveToHistory": {
+      "get": {
+        "summary": "Recopie les données de 'history-save' vers 'history'.",
+        "tags": [
+          "Notifications"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/abonnements": {
+      "get": {
+        "summary": "Retourne tous les abonnements disponibles (l'abonnement à TRUE signifie que c'est un abonnement en plus de ceux d'ADE).",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "supannEtuId": {
+                        "type": "string"
+                      },
+                      "idAde": {
+                        "type": "string"
+                      },
+                      "groupeId": {
+                        "type": "string"
+                      },
+                      "annee": {
+                        "type": "integer"
+                      },
+                      "libelle": {
+                        "type": "string"
+                      },
+                      "semestre": {
+                        "type": "string"
+                      },
+                      "formation": {
+                        "type": "string"
+                      },
+                      "abonnement": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/groupes/{groupeId}/abonnement": {
+      "post": {
+        "summary": "Ajoute un abonnement à un groupe spécifique par son ID.",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "parameters": [
+          {
+            "name": "groupeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/abonnements/{groupeId}": {
+      "delete": {
+        "summary": "Supprime un abonnement d'un groupe spécifique par son ID.",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "parameters": [
+          {
+            "name": "groupeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/semestres": {
+      "get": {
+        "summary": "Retourne tous les semestres disponibles.",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "fatherName": {
+                        "type": "string"
+                      },
+                      "fatherId": {
+                        "type": "integer"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "nbEventsPlaced": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/semestres/{id}/cours": {
+      "get": {
+        "summary": "Retourne tous les cours associés à un semestre spécifique.",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "fatherId": {
+                        "type": "integer"
+                      },
+                      "fatherName": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    },
+    "/cours/{id}/groupes": {
+      "get": {
+        "summary": "Retourne tous les groupes associés à un cours spécifique.",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "fatherId": {
+                        "type": "integer"
+                      },
+                      "fatherName": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "type": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    },
+    "/planning/period/from/{deb}/to/{fin}": {
+      "get": {
+        "summary": "Retourne le planning des événements pour une période donnée, ajustant les dates pour le mois courant.",
+        "tags": [
+          "Abonnements"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "classroomName": {
+                        "type": "string"
+                      },
+                      "instructorName": {
+                        "type": "string"
+                      },
+                      "note": {
+                        "type": "string"
+                      },
+                      "color": {
+                        "type": "string"
+                      },
+                      "date": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "startHour": {
+                        "type": "string"
+                      },
+                      "endHour": {
+                        "type": "string"
+                      },
+                      "lastUpdate": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "activityId": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "deb",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fin",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/lieu": {
+      "get": {
+        "summary": "Retourne la liste des lieux.",
+        "tags": [
+          "Geolocalication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "campus": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "motClefs": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      },
+                      "longitude": {
+                        "type": "number"
+                      },
+                      "latitude": {
+                        "type": "number"
+                      },
+                      "siteWeb": {
+                        "type": "string"
+                      },
+                      "telephone": {
+                        "type": "string"
+                      },
+                      "mail": {
+                        "type": "string"
+                      },
+                      "idRepere": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/lieu/{ID}/image": {
+      "get": {
+        "summary": "Retourne l'image associée à un lieu spécifique par son ID.",
+        "tags": [
+          "Geolocalication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "image/jpeg": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "ID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/notes": {
+      "get": {
+        "summary": "Requête qui permet la récupération de toutes les notes des différentes étapes à partir d'un accessToken (APOGEE V6.60.70).",
+        "tags": [
+          "Notes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "codAnu": {
+                        "type": "string"
+                      },
+                      "codEtape": {
+                        "type": "string"
+                      },
+                      "codVersionEtape": {
+                        "type": "integer"
+                      },
+                      "libEtape": {
+                        "type": "string"
+                      },
+                      "libelCourtDiplome": {
+                        "type": "string"
+                      },
+                      "libelLongDiplome": {
+                        "type": "string"
+                      },
+                      "listeNote": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "cip": {
+                              "type": "object",
+                              "properties": {
+                                "codCip": {
+                                  "type": "string"
+                                },
+                                "libCip": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "codAnu": {
+                              "type": "string"
+                            },
+                            "codElpSup": {
+                              "type": "string"
+                            },
+                            "codTypIpe": {
+                              "type": "string"
+                            },
+                            "elp": {
+                              "type": "object",
+                              "properties": {
+                                "barMinConElp": {
+                                  "type": "integer"
+                                },
+                                "codElp": {
+                                  "type": "string"
+                                },
+                                "durConElp": {
+                                  "type": "integer"
+                                },
+                                "libElp": {
+                                  "type": "string"
+                                },
+                                "natureElp": {
+                                  "type": "object",
+                                  "properties": {
+                                    "codNel": {
+                                      "type": "string"
+                                    },
+                                    "libNel": {
+                                      "type": "string"
+                                    },
+                                    "temFictif": {
+                                      "type": "string"
+                                    },
+                                    "temSemestre": {
+                                      "type": "string"
+                                    },
+                                    "temUe": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "nbrCrdElp": {
+                                  "type": "integer"
+                                },
+                                "notMinConElp": {
+                                  "type": "integer"
+                                },
+                                "numPreElp": {
+                                  "type": "integer"
+                                },
+                                "temCtlValCadElp": {
+                                  "type": "string"
+                                },
+                                "temElpTypeStage": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "epreuvesElp": {
+                              "type": "object",
+                              "properties": {
+                                "item": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "annee": {
+                                        "type": "string"
+                                      },
+                                      "epreuve": {
+                                        "type": "object",
+                                        "properties": {
+                                          "barMinConEpr": {
+                                            "type": "integer"
+                                          },
+                                          "codEpr": {
+                                            "type": "string"
+                                          },
+                                          "durConEpr": {
+                                            "type": "integer"
+                                          },
+                                          "libEpr": {
+                                            "type": "string"
+                                          },
+                                          "natureEpr": {
+                                            "type": "object",
+                                            "properties": {
+                                              "codNep": {
+                                                "type": "string"
+                                              },
+                                              "libNep": {
+                                                "type": "string"
+                                              }
+                                            }
+                                          },
+                                          "notMinConEpr": {
+                                            "type": "integer"
+                                          },
+                                          "temCtlValCadEpr": {
+                                            "type": "string"
+                                          },
+                                          "typEpreuve": {
+                                            "type": "object",
+                                            "properties": {
+                                              "codTep": {
+                                                "type": "string"
+                                              },
+                                              "libTep": {
+                                                "type": "string"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "natureResultat": {
+                                        "type": "object",
+                                        "properties": {
+                                          "codAdm": {
+                                            "type": "string"
+                                          },
+                                          "libAdm": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "resultatEpr": {
+                                        "type": "object",
+                                        "properties": {
+                                          "item": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "object",
+                                              "properties": {
+                                                "barNotEpr": {
+                                                  "type": "integer"
+                                                },
+                                                "codAnu": {
+                                                  "type": "string"
+                                                },
+                                                "codEtaNotEpr": {
+                                                  "type": "string"
+                                                },
+                                                "codEtaResEpr": {
+                                                  "type": "string"
+                                                },
+                                                "etatDelib": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "codEtaAvc": {
+                                                      "type": "string"
+                                                    },
+                                                    "libEtaAvc": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                "libEtaNotEpr": {
+                                                  "type": "string"
+                                                },
+                                                "libEtaResEpr": {
+                                                  "type": "string"
+                                                },
+                                                "notEpr": {
+                                                  "type": "string"
+                                                },
+                                                "session": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "codSes": {
+                                                      "type": "string"
+                                                    },
+                                                    "libSes": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                },
+                                                "typResultat": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "codNegTre": {
+                                                      "type": "string"
+                                                    },
+                                                    "codTre": {
+                                                      "type": "string"
+                                                    },
+                                                    "libTre": {
+                                                      "type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "fex": {
+                              "type": "object",
+                              "properties": {
+                                "codFex": {
+                                  "type": "string"
+                                },
+                                "libFex": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "groupes": {
+                              "type": "object",
+                              "properties": {
+                                "item": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "codCol": {
+                                        "type": "string"
+                                      },
+                                      "codGpe": {
+                                        "type": "string"
+                                      },
+                                      "libDesOrgGpo": {
+                                        "type": "string"
+                                      },
+                                      "libGpe": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "libEtatIae": {
+                              "type": "string"
+                            },
+                            "resultatsElp": {
+                              "type": "object",
+                              "properties": {
+                                "item": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "barNotElp": {
+                                        "type": "integer"
+                                      },
+                                      "codAnu": {
+                                        "type": "string"
+                                      },
+                                      "codEtaMndElp": {
+                                        "type": "string"
+                                      },
+                                      "codEtaNotElp": {
+                                        "type": "string"
+                                      },
+                                      "codEtaResElp": {
+                                        "type": "string"
+                                      },
+                                      "codEtaRngElp": {
+                                        "type": "string"
+                                      },
+                                      "etatDelib": {
+                                        "type": "object",
+                                        "properties": {
+                                          "codEtaAvc": {
+                                            "type": "string"
+                                          },
+                                          "libEtaAvc": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "lcc": {
+                                        "type": "object",
+                                        "properties": {
+                                          "elpS1": {
+                                            "type": "object",
+                                            "properties": {
+                                              "codElp": {
+                                                "type": "string"
+                                              },
+                                              "libElp": {
+                                                "type": "string"
+                                              }
+                                            }
+                                          },
+                                          "elpS2": {
+                                            "type": "object",
+                                            "properties": {
+                                              "codElp": {
+                                                "type": "string"
+                                              },
+                                              "libElp": {
+                                                "type": "string"
+                                              }
+                                            }
+                                          },
+                                          "notElpS1Lcc": {
+                                            "type": "string"
+                                          },
+                                          "notElpS2Lcc": {
+                                            "type": "string"
+                                          },
+                                          "typeResS1": {
+                                            "type": "object",
+                                            "properties": {
+                                              "codNegTre": {
+                                                "type": "string"
+                                              },
+                                              "codTre": {
+                                                "type": "string"
+                                              },
+                                              "libTre": {
+                                                "type": "string"
+                                              }
+                                            }
+                                          },
+                                          "typeResS2": {
+                                            "type": "object",
+                                            "properties": {
+                                              "codNegTre": {
+                                                "type": "string"
+                                              },
+                                              "codTre": {
+                                                "type": "string"
+                                              },
+                                              "libTre": {
+                                                "type": "string"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "libCmtTrv": {
+                                        "type": "string"
+                                      },
+                                      "libEtaMndElp": {
+                                        "type": "string"
+                                      },
+                                      "libEtaNotElp": {
+                                        "type": "string"
+                                      },
+                                      "libEtaResElp": {
+                                        "type": "string"
+                                      },
+                                      "libEtaRngElp": {
+                                        "type": "string"
+                                      },
+                                      "libRvn": {
+                                        "type": "string"
+                                      },
+                                      "mention": {
+                                        "type": "object",
+                                        "properties": {
+                                          "codMen": {
+                                            "type": "string"
+                                          },
+                                          "libMen": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "natureResultat": {
+                                        "type": "object",
+                                        "properties": {
+                                          "codAdm": {
+                                            "type": "string"
+                                          },
+                                          "libAdm": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "nbrCrdElp": {
+                                        "type": "integer"
+                                      },
+                                      "nbrRngEtuElp": {
+                                        "type": "integer"
+                                      },
+                                      "nbrRngEtuElpTot": {
+                                        "type": "integer"
+                                      },
+                                      "notElp": {
+                                        "type": "string"
+                                      },
+                                      "notPntJurElp": {
+                                        "type": "integer"
+                                      },
+                                      "session": {
+                                        "type": "object",
+                                        "properties": {
+                                          "codSes": {
+                                            "type": "string"
+                                          },
+                                          "libSes": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "temResEstComp": {
+                                        "type": "string"
+                                      },
+                                      "temResMeiNot": {
+                                        "type": "string"
+                                      },
+                                      "temResSerComp": {
+                                        "type": "string"
+                                      },
+                                      "typResultat": {
+                                        "type": "object",
+                                        "properties": {
+                                          "codNegTre": {
+                                            "type": "string"
+                                          },
+                                          "codTre": {
+                                            "type": "string"
+                                          },
+                                          "libTre": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "rngElp": {
+                              "type": "integer"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/connexion": {
+      "post": {
+        "summary": "Requête qui permet à partir du login/mdp d'établir une connexion et de récupérer les informations de l'utilisateur (LDAP, Crous, Formation, AccessToken, RefreshToken, Photo).",
+        "tags": [
+          "Oauth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "accessToken": {
+                      "type": "string"
+                    },
+                    "cn": {
+                      "type": "string"
+                    },
+                    "creditIzly": {
+                      "type": "string"
+                    },
+                    "displayName": {
+                      "type": "string"
+                    },
+                    "exp": {
+                      "type": "string"
+                    },
+                    "expires_in": {
+                      "type": "integer"
+                    },
+                    "formation": {
+                      "type": "string"
+                    },
+                    "givenName": {
+                      "type": "string"
+                    },
+                    "mail": {
+                      "type": "string"
+                    },
+                    "oauthClientId": {
+                      "type": "string"
+                    },
+                    "photoToken": {
+                      "type": "string"
+                    },
+                    "refreshToken": {
+                      "type": "string"
+                    },
+                    "sn": {
+                      "type": "string"
+                    },
+                    "supannCodeINE": {
+                      "type": "string"
+                    },
+                    "supannEmpId": {
+                      "type": "string"
+                    },
+                    "supannEtuId": {
+                      "type": "string"
+                    },
+                    "uid": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user": {
+      "get": {
+        "summary": "Requête qui permet la récupération des informations de l'utilisateur (LDAP, Crous, Formation, AccessToken, RefreshToken, Photo) à partir d'un accessToken.",
+        "tags": [
+          "Oauth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "accessToken": {
+                      "type": "string"
+                    },
+                    "cn": {
+                      "type": "string"
+                    },
+                    "creditIzly": {
+                      "type": "string"
+                    },
+                    "displayName": {
+                      "type": "string"
+                    },
+                    "exp": {
+                      "type": "string"
+                    },
+                    "expires_in": {
+                      "type": "integer"
+                    },
+                    "formation": {
+                      "type": "string"
+                    },
+                    "givenName": {
+                      "type": "string"
+                    },
+                    "mail": {
+                      "type": "string"
+                    },
+                    "oauthClientId": {
+                      "type": "string"
+                    },
+                    "photoToken": {
+                      "type": "string"
+                    },
+                    "refreshToken": {
+                      "type": "string"
+                    },
+                    "sn": {
+                      "type": "string"
+                    },
+                    "supannCodeINE": {
+                      "type": "string"
+                    },
+                    "supannEmpId": {
+                      "type": "string"
+                    },
+                    "supannEtuId": {
+                      "type": "string"
+                    },
+                    "uid": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tokenRefresh": {
+      "post": {
+        "summary": "Requête qui permet de récupérer un nouveau accessToken à partir d'un refreshToken.",
+        "tags": [
+          "Oauth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "refreshToken": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "access_token": {
+                      "type": "string"
+                    },
+                    "expires_in": {
+                      "type": "integer"
+                    },
+                    "scope": {
+                      "type": "string"
+                    },
+                    "token_type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getST": {
+      "post": {
+        "summary": "Requête qui permet à partir du login/mdp et d'un service d'avoir un ticket (ST) pour l'utilisateur sur un service donné.",
+        "tags": [
+          "Oauth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  },
+                  "service": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/photo/{photoToken}": {
+      "get": {
+        "summary": "Requête qui permet à partir d'un token (photoToken) la photo de l'utilisateur lié à ce token (valide qu'une fois).",
+        "tags": [
+          "Oauth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "image/jpeg": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -115,45 +115,5 @@
       "mail": null,
       "idRepere": "02CPB005"
     }
-  ],
-  "endpoints": [
-    {
-      "name": "lieu",
-      "information": "Retourne la liste des lieux",
-      "method": {
-        "type": "GET",
-        "url": "/lieu",
-        "Headers": {
-          "Authorization": "Bearer OAUTHTOKEN"
-        },
-        "responseModel": {
-          "id": "string",
-          "name": "string",
-          "campus": {
-            "name": "string"
-          },
-          "motClefs": [
-            {
-              "name": "string"
-            }
-          ],
-          "longitude": "number",
-          "latitude": "number",
-          "siteWeb": "string",
-          "telephone": "string",
-          "mail": "string",
-          "idRepere": "string"
-        }
-      }
-    },
-    {
-      "name": "lieu-image",
-      "information": "Retourne l'image associée à un lieu spécifique par son ID.",
-      "method": {
-        "type": "GET",
-        "url": "/lieu/{ID}/image",
-        "responseModel": "Media type image/jpeg"
-      }
-    }
   ]
 }

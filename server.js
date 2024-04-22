@@ -4,9 +4,15 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const app = express();
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger.json');
 
 // Middleware pour parser le corps des requêtes en JSON
 app.use(express.json());
+
+// Docs swagger pour les appels ws
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
 
 // Initialisez l'application Firebase Admin
 admin.initializeApp({
