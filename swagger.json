@@ -1557,7 +1557,17 @@
               "image/jpeg": {}
             }
           }
-        }
+        },
+        "parameters": [
+          {
+            "name": "photoToken",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
       }
     }
   },
