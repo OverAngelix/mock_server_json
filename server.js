@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Pour servir la documentation Swagger sur la racine "/"
-app.get('/', swaggerUi.setup(swaggerDocument));
+app.get('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
 // Initialisez l'application Firebase Admin
