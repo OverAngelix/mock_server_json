@@ -10,8 +10,11 @@ const swaggerDocument = require('./swagger.json');
 // Middleware pour parser le corps des requêtes en JSON
 app.use(express.json());
 
-// Docs swagger pour les appels ws
+// Middleware pour servir la documentation Swagger
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
+// Pour servir la documentation Swagger sur la racine "/"
+app.get('/', swaggerUi.setup(swaggerDocument));
 
 
 // Initialisez l'application Firebase Admin
@@ -85,21 +88,6 @@ app.get("/photo/:photoToken", (req, res) => {
   res.sendFile(path.join(__dirname, "images", "profile.jpg"));
 });
 
-app.get("/doc-oauth", (req, res) => {
-  fs.readFile("wsoauth.json", "utf8", (err, data) => {
-    if (err) {
-      res.status(500).send("Erreur lors de la lecture du fichier");
-      return;
-    }
-    const jsonData = JSON.parse(data);
-    if (jsonData.endpoints) {
-      res.json(jsonData.endpoints);
-    } else {
-      res.status(404).send("Données de connexion non trouvées");
-    }
-  });
-});
-
 /*--------------------| NOTES |------------------*/
 app.get("/notes", (req, res) => {
   fs.readFile("wsnotes.json", "utf8", (err, data) => {
@@ -110,21 +98,6 @@ app.get("/notes", (req, res) => {
     const jsonData = JSON.parse(data);
     if (jsonData.notes) {
       res.json(jsonData.notes);
-    } else {
-      res.status(404).send("Données de connexion non trouvées");
-    }
-  });
-});
-
-app.get("/doc-notes", (req, res) => {
-  fs.readFile("wsnotes.json", "utf8", (err, data) => {
-    if (err) {
-      res.status(500).send("Erreur lors de la lecture du fichier");
-      return;
-    }
-    const jsonData = JSON.parse(data);
-    if (jsonData.endpoints) {
-      res.json(jsonData.endpoints);
     } else {
       res.status(404).send("Données de connexion non trouvées");
     }
@@ -239,21 +212,6 @@ app.delete("/terminal/:fcmRegistrationToken", (req, res) => {
     .catch((error) => {
       console.log("Error unsubscribing from topic:", error);
     });
-});
-
-app.get("/doc-notifications", (req, res) => {
-  fs.readFile("benotifications.json", "utf8", (err, data) => {
-    if (err) {
-      res.status(500).send("Erreur lors de la lecture du fichier");
-      return;
-    }
-    const jsonData = JSON.parse(data);
-    if (jsonData.endpoints) {
-      res.json(jsonData.endpoints);
-    } else {
-      res.status(404).send("Données de connexion non trouvées");
-    }
-  });
 });
 
 //NON APPELLER PAR LILU MAIS POUR FAIRE DES NOTIFS AVEC FCM
@@ -521,21 +479,6 @@ app.get("/lieu/:id/image", (req, res) => {
   res.sendFile(path.join(__dirname, "images", "lieux", lieuJPG));
 });
 
-app.get("/doc-geolocalisation", (req, res) => {
-  fs.readFile("begeolocalisation.json", "utf8", (err, data) => {
-    if (err) {
-      res.status(500).send("Erreur lors de la lecture du fichier");
-      return;
-    }
-    const jsonData = JSON.parse(data);
-    if (jsonData.endpoints) {
-      res.json(jsonData.endpoints);
-    } else {
-      res.status(404).send("Données de connexion non trouvées");
-    }
-  });
-});
-
 /*--------------------| ADE |------------------*/
 app.get("/abonnements", (req, res) => {
   fs.readFile("wsade.json", "utf8", (err, data) => {
@@ -740,21 +683,6 @@ app.get("/planning/period/from/:deb/to/:fin", (req, res) => {
       res.json(jsonData.planning);
     } else {
       res.status(404).send("Données de planning non trouvées");
-    }
-  });
-});
-
-app.get("/doc-ade", (req, res) => {
-  fs.readFile("wsade.json", "utf8", (err, data) => {
-    if (err) {
-      res.status(500).send("Erreur lors de la lecture du fichier");
-      return;
-    }
-    const jsonData = JSON.parse(data);
-    if (jsonData.endpoints) {
-      res.json(jsonData.endpoints);
-    } else {
-      res.status(404).send("Données de connexion non trouvées");
     }
   });
 });
