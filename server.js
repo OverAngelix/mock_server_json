@@ -13,9 +13,10 @@ app.use(express.json());
 // Middleware pour servir la documentation Swagger
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-// Pour servir la documentation Swagger sur la racine "/"
-app.get('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
+// Redirection de la route principale "/" vers "/api-docs"
+app.get('/', (req, res) => {
+  res.redirect('/api-docs');
+});
 
 // Initialisez l'application Firebase Admin
 admin.initializeApp({
